@@ -34,6 +34,8 @@ public class String_Concept {
          *
          */
 
+        // Methods discussed here -> length(), toLowercase(), toUppercase(), equals(), equalsIgnoreCase(), contains()
+
         String stmt = "";
 
         /**
@@ -157,11 +159,14 @@ public class String_Concept {
          * apply contains method on statement_U with new_U
          *
          */
+        String statement1 = "jkhdjka s;jksadhksajd ajkhdaskjhdsjk hasjklh adjkslhdasljk";
+        String checkFor = "ZzzZ";
 
+        String statement1_lower = statement1.toLowerCase();     // new york times
+        String checkFor_lower = checkFor.toLowerCase();         // new
 
-
-
-
+        boolean ans = statement1_lower.contains(checkFor_lower);
+        System.out.println("ans -> " + ans);
 
     }
 }
