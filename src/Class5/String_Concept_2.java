@@ -15,6 +15,7 @@ public class String_Concept_2 {
          *
          */
 
+        // String_Concept -> length(), toLowercase(), toUppercase(), equals(), equalsIgnoreCase(), contains()
         // Methods discussed here -> replace(), charAt(), indexOf(), lastIndexOf(), startsWith(), endsWith(), trim(), subString()
 
         /**

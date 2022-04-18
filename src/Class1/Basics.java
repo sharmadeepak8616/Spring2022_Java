@@ -1,5 +1,7 @@
 package Class1;
 
+import Class13.Restaurant_Pkg.Restaurant;
+
 public class Basics {
 
 
@@ -20,6 +22,14 @@ public class Basics {
          */
 
         System.out.println("Have a good day to you sir ** ^^");
+
+
+        // call open() from Restaurant.
+        Restaurant.open();
+
+        // Restaurant r = new Restaurant();
+        // r.registration("", "", 100, 20);
+
 
     }
 
